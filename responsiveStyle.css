@@ -1,0 +1,29 @@
+@media screen and (max-width: 950px) {
+    .col1, .col2 {
+  width: 45%;
+}
+
+.col3 {
+  width: 100%;
+}
+
+}
+
+@media screen and (max-width: 720px) {
+    .col1, .col2 {
+        width: 100%;
+        float: none;
+    }
+
+    .col3 {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .col1, .col2, .col3 {
+        width: 100%;
+        float: none;
+    }
+}
+
